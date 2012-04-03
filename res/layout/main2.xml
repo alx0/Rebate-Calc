@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+ <Spinner 
+     android:id="@+id/action"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:drawSelectorOnTop="true"
+     android:prompt="@string/action" />
+ 
+ <TextView
+     android:text="@string/prezzo"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+    />
+ 
+ <EditText
+     android:id="@+id/firstEdit"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:inputType="numberDecimal"
+   />
+ 
+ <TextView
+     android:text="@string/sconto"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     />
+ 
+ <EditText
+     android:id="@+id/secondEdit"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:inputType="numberDecimal"
+    />
+
+ <Button
+     android:id="@+id/calc"
+     android:layout_width="129dp"
+     android:layout_height="wrap_content"
+     android:text="@string/button"/>
+ 
+ </LinearLayout>

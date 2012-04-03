@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, RebateActivity!</string>
+    <string name="app_name">Rebate</string>
+    <string name="action">Scegli cosa vuoi fare</string>
+    <string name="button">Calcola!</string>
+    <string name="prezzo">Digita il prezzo</string>
+    <string name="sconto">Digita lo sconto</string>
+</resources>

@@ -1,0 +1,7 @@
+
+    <resources>
+        <string-array name="actions">
+            <item>Calcola il prezzo scontato</item>
+            <item>Calcola il prezzo di base</item>
+        </string-array>
+    </resources>
